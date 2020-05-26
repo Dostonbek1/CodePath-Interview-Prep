@@ -47,4 +47,4 @@ class Solution(object):
             runner = runner.next.next
             if walker == runner:
                 return True
-    
+        return False
