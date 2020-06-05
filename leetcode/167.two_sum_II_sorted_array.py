@@ -16,7 +16,7 @@ Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
 '''
 
 class Solution:
-    def twoSum(self, number, target):
+    def twoSum(self, numbers, target):
         a = 0
         b = len(numbers)-1
         
